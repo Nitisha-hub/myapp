@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 20
+  build:
+    commands:
+      - echo "Building Docker image..."
+      - docker build -t myapp .
+      - echo "Running Docker container..."
+      - docker run myapp
