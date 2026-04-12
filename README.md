@@ -4,7 +4,7 @@
 This is a Python-based application containerized using Docker. It demonstrates how to build, run, and deploy Python apps using containerization.
 
 ## 🛠️ Tech Stack
-- Python
+- Python   
 - Docker
 - AWS (optional if deployed)
 - Flask (if used)
