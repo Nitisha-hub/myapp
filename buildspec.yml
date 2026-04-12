@@ -6,7 +6,7 @@ phases:
       - echo "Install phase started"
 
   build:
-    commands:
+    commands:  
       - echo "Building Docker image..."
       - docker build -t myapp .
       - echo "Running Docker container..."
